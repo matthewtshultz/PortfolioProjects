@@ -1,3 +1,7 @@
+--In this project, I explore data from a dataset (Liscensed as CC0: Public Domain) found on Kaggle, called "Football Data from Transfermarkt." This data 
+--has been scraped from the Transfermarkt website, a site that focuses on the transfer market of worldwide soccer players. Specifically, I utilize the CSV files
+--clubs, players, and player valuations to make observations about the current market and write queries with interesting returns.
+
 --Demonstration of a variety of SQL skills
 
 --Creating table
