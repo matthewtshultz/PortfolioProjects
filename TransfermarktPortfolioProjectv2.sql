@@ -87,10 +87,6 @@ WHERE current_club_domestic_competition_id = 'GB1'
 GROUP BY current_club_name, current_club_domestic_competition_id
 ORDER BY roster_count DESC, current_club_name 
 
-SELECT *
-FROM clubs
-ORDER BY stadium_seats
-
 --Using a join to see by name which clubs in the Premier League (GB1) have had the highest valued players
 
 SELECT players.name, current_club_name, players.current_club_domestic_competition_id, highest_market_value_in_eur
@@ -296,7 +292,7 @@ FROM players
 UPDATE players
 SET city_of_birth = REPLACE(city_of_birth, 'Â Â', '')
 
---Re-uploaded data for the players table and it effectively fixed issues I was having with accents, tildes and the like with
+--Re-uploaded data for the players table as players2 and it effectively fixed issues I was having with accents, tildes and the like with
 --players' names, city of birth, and country of birth
 
 SELECT *
